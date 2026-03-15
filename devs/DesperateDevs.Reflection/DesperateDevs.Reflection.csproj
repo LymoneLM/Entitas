@@ -6,11 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Sherlog" Version="1.*" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="../DesperateDevs.Extensions/DesperateDevs.Extensions.csproj" />
+    <ProjectReference Include="..\..\sherlog\Sherlog\Sherlog.csproj" />
   </ItemGroup>
 
 </Project>
