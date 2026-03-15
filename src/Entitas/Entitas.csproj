@@ -13,8 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="DesperateDevs.Caching" Version="1.*" />
-    <PackageReference Include="DesperateDevs.Reflection" Version="1.*" />
+    <ProjectReference Include="..\..\devs\DesperateDevs.Caching\DesperateDevs.Caching.csproj" />
+    <ProjectReference Include="..\..\devs\DesperateDevs.Reflection\DesperateDevs.Reflection.csproj" />
   </ItemGroup>
 
 </Project>
